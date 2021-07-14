@@ -11,8 +11,8 @@ jobs:
         include:
           - os: ubuntu-latest
             cibw_arch: auto aarch64
-          #- os: macos-latest
-          #  cibw_arch: auto
+          - os: macos-latest
+            cibw_arch: auto
           #- os: windows-latest
           #  cibw_arch: auto
         #os: [ubuntu-latest, macos-latest, windows-latest]
